@@ -1,13 +1,13 @@
-let student = [ 
+const student = [ 
         {
         "id": 1,
         "first_name": "Issy",
         "last_name": "Reisenstein",
         "gender": "Female",
         "ranking": 0,
-        "Grade_level": "Senior",
-        "First_subject": { "Subject": "Algebra", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "F" }
+        "grade_level": "Senior",
+        "first_subject": { "Subject": "Algebra", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "F" }
         },
         {
         "id": 2,
@@ -15,9 +15,9 @@ let student = [
         "last_name": "Humphries",
         "gender": "Female",
         "ranking": 0,
-        "Grade_level": "Junior",
-        "First_subject": { "Subject": "History", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "F" }
+        "grade_level": "Junior",
+        "first_subject": { "Subject": "History", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "F" }
         },
         {
         "id": 3,
@@ -25,9 +25,9 @@ let student = [
         "last_name": "Matyas",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Freshmen",
-        "First_subject": { "Subject": "Public Speaking", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "C" }
+        "grade_level": "Freshmen",
+        "first_subject": { "Subject": "Public Speaking", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "C" }
         },
         {
         "id": 4,
@@ -35,9 +35,9 @@ let student = [
         "last_name": "Tunkin",
         "gender": "Female",
         "ranking": 0,
-        "Grade_level": "Senior",
-        "First_subject": { "Subject": "Public Speaking", "Grade": "A" },
-        "Second_subject": { "Subject": "Writing", "Grade": "F" }
+        "grade_level": "Senior",
+        "first_subject": { "Subject": "Public Speaking", "Grade": "A" },
+        "second_subject": { "Subject": "Writing", "Grade": "F" }
         },
         {
         "id": 5,
@@ -45,9 +45,9 @@ let student = [
         "last_name": "Pina",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Junior",
-        "First_subject": { "Subject": "History", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "D" }
+        "grade_level": "Junior",
+        "first_subject": { "Subject": "History", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "D" }
         },
         {
         "id": 6,
@@ -55,9 +55,9 @@ let student = [
         "last_name": "Ahlf",
         "gender": "Female",
         "ranking": 0,
-        "Grade_level": "Senior",
-        "First_subject": { "Subject": "History", "Grade": "A" },
-        "Second_subject": { "Subject": "Art", "Grade": "D" }
+        "grade_level": "Senior",
+        "first_subject": { "Subject": "History", "Grade": "A" },
+        "second_subject": { "Subject": "Art", "Grade": "D" }
         },
         {
         "id": 7,
@@ -65,9 +65,9 @@ let student = [
         "last_name": "Siderfin",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Junior",
-        "First_subject": { "Subject": "History", "Grade": "B" },
-        "Second_subject": { "Subject": "Physics", "Grade": "D" }
+        "grade_level": "Junior",
+        "first_subject": { "Subject": "History", "Grade": "B" },
+        "second_subject": { "Subject": "Physics", "Grade": "D" }
         },
         {
         "id": 8,
@@ -75,9 +75,9 @@ let student = [
         "last_name": "Rawles",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Freshmen",
-        "First_subject": { "Subject": "History", "Grade": "B" },
-        "Second_subject": { "Subject": "Psychology", "Grade": "D" }
+        "grade_level": "Freshmen",
+        "first_subject": { "Subject": "History", "Grade": "B" },
+        "second_subject": { "Subject": "Psychology", "Grade": "D" }
         },
         {
         "id": 9,
@@ -85,9 +85,9 @@ let student = [
         "last_name": "Bulleyn",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Senior",
-        "First_subject": { "Subject": "Public Speaking", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "D" }
+        "grade_level": "Senior",
+        "first_subject": { "Subject": "Public Speaking", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "D" }
         },
         {
         "id": 10,
@@ -95,9 +95,9 @@ let student = [
         "last_name": "Maxfield",
         "gender": "Female",
         "ranking": 0,
-        "Grade_level": "Junior",
-        "First_subject": { "Subject": "History", "Grade": "A" },
-        "Second_subject": { "Subject": "Art", "Grade": "F" }
+        "grade_level": "Junior",
+        "first_subject": { "Subject": "History", "Grade": "A" },
+        "second_subject": { "Subject": "Art", "Grade": "F" }
         },
         {
         "id": 11,
@@ -105,9 +105,9 @@ let student = [
         "last_name": "Elward",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Junior",
-        "First_subject": { "Subject": "History", "Grade": "A" },
-        "Second_subject": { "Subject": "Writing", "Grade": "F" }
+        "grade_level": "Junior",
+        "first_subject": { "Subject": "History", "Grade": "A" },
+        "second_subject": { "Subject": "Writing", "Grade": "F" }
         },
         {
         "id": 12,
@@ -115,9 +115,9 @@ let student = [
         "last_name": "Fidler",
         "gender": "Female",
         "ranking": 0,
-        "Grade_level": "Senior",
-        "First_subject": { "Subject": "Algebra", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "F" }
+        "grade_level": "Senior",
+        "first_subject": { "Subject": "Algebra", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "F" }
         },
         {
         "id": 13,
@@ -125,9 +125,9 @@ let student = [
         "last_name": "Eardley",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Junior",
-        "First_subject": { "Subject": "History", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "F" }
+        "grade_level": "Junior",
+        "first_subject": { "Subject": "History", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "F" }
         },
         {
         "id": 14,
@@ -135,9 +135,9 @@ let student = [
         "last_name": "Rohlfing",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Senior",
-        "First_subject": { "Subject": "Algebra", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "D" }
+        "grade_level": "Senior",
+        "first_subject": { "Subject": "Algebra", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "D" }
         },
         {
         "id": 15,
@@ -145,9 +145,9 @@ let student = [
         "last_name": "McGrale",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Junior",
-        "First_subject": { "Subject": "Algebra", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "A" }
+        "grade_level": "Junior",
+        "first_subject": { "Subject": "Algebra", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "A" }
         },
         {
         "id": 16,
@@ -155,9 +155,9 @@ let student = [
         "last_name": "Fitzackerley",
         "gender": "Genderfluid",
         "ranking": 0,
-        "Grade_level": "Senior",
-        "First_subject": { "Subject": "History", "Grade": "B" },
-        "Second_subject": { "Subject": "Writing", "Grade": "D" }
+        "grade_level": "Senior",
+        "first_subject": { "Subject": "History", "Grade": "B" },
+        "second_subject": { "Subject": "Writing", "Grade": "D" }
         },
         {
         "id": 17,
@@ -165,9 +165,9 @@ let student = [
         "last_name": "Latchmore",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Senior",
-        "First_subject": { "Subject": "Algebra", "Grade": "A" },
-        "Second_subject": { "Subject": "Art", "Grade": "F" }
+        "grade_level": "Senior",
+        "first_subject": { "Subject": "Algebra", "Grade": "A" },
+        "second_subject": { "Subject": "Art", "Grade": "F" }
         },
         {
         "id": 18,
@@ -175,9 +175,9 @@ let student = [
         "last_name": "Jarrold",
         "gender": "Female",
         "ranking": 0,
-        "Grade_level": "Junior",
-        "First_subject": { "Subject": "Trigonometry", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "D" }
+        "grade_level": "Junior",
+        "first_subject": { "Subject": "Trigonometry", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "D" }
         },
         {
         "id": 19,
@@ -185,9 +185,9 @@ let student = [
         "last_name": "Annis",
         "gender": "Non-binary",
         "ranking": 0,
-        "Grade_level": "Junior",
-        "First_subject": { "Subject": "History", "Grade": "A" },
-        "Second_subject": { "Subject": "Art", "Grade": "B" }
+        "grade_level": "Junior",
+        "first_subject": { "Subject": "History", "Grade": "A" },
+        "second_subject": { "Subject": "Art", "Grade": "B" }
         },
         {
         "id": 20,
@@ -195,9 +195,9 @@ let student = [
         "last_name": "Spenceley",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Sophomore",
-        "First_subject": { "Subject": "History", "Grade": "A" },
-        "Second_subject": { "Subject": "Art", "Grade": "F" }
+        "grade_level": "Sophomore",
+        "first_subject": { "Subject": "History", "Grade": "A" },
+        "second_subject": { "Subject": "Art", "Grade": "F" }
         },
         {
         "id": 21,
@@ -205,9 +205,9 @@ let student = [
         "last_name": "Nuss",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Junior",
-        "First_subject": { "Subject": "History", "Grade": "A" },
-        "Second_subject": { "Subject": "Art", "Grade": "B" }
+        "grade_level": "Junior",
+        "first_subject": { "Subject": "History", "Grade": "A" },
+        "second_subject": { "Subject": "Art", "Grade": "B" }
         },
         {
         "id": 22,
@@ -215,9 +215,9 @@ let student = [
         "last_name": "Yakovlev",
         "gender": "Female",
         "ranking": 0,
-        "Grade_level": "Freshmen",
-        "First_subject": { "Subject": "Public Speaking", "Grade": "B" },
-        "Second_subject": { "Subject": "Physics", "Grade": "D" }
+        "grade_level": "Freshmen",
+        "first_subject": { "Subject": "Public Speaking", "Grade": "B" },
+        "second_subject": { "Subject": "Physics", "Grade": "D" }
         },
         {
         "id": 23,
@@ -225,9 +225,9 @@ let student = [
         "last_name": "Lynett",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Senior",
-        "First_subject": { "Subject": "History", "Grade": "A" },
-        "Second_subject": { "Subject": "Writing", "Grade": "F" }
+        "grade_level": "Senior",
+        "first_subject": { "Subject": "History", "Grade": "A" },
+        "second_subject": { "Subject": "Writing", "Grade": "F" }
         },
         {
         "id": 24,
@@ -235,9 +235,9 @@ let student = [
         "last_name": "Malinson",
         "gender": "Genderfluid",
         "ranking": 0,
-        "Grade_level": "Freshmen",
-        "First_subject": { "Subject": "History", "Grade": "C" },
-        "Second_subject": { "Subject": "Biology", "Grade": "A" }
+        "grade_level": "Freshmen",
+        "first_subject": { "Subject": "History", "Grade": "C" },
+        "second_subject": { "Subject": "Biology", "Grade": "A" }
         },
         {
         "id": 25,
@@ -245,9 +245,9 @@ let student = [
         "last_name": "Kettlestringe",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Junior",
-        "First_subject": { "Subject": "Public Speaking", "Grade": "B" },
-        "Second_subject": { "Subject": "Physics", "Grade": "C" }
+        "grade_level": "Junior",
+        "first_subject": { "Subject": "Public Speaking", "Grade": "B" },
+        "second_subject": { "Subject": "Physics", "Grade": "C" }
         },
         {
         "id": 26,
@@ -255,9 +255,9 @@ let student = [
         "last_name": "Ivantsov",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Senior",
-        "First_subject": { "Subject": "Public Speaking", "Grade": "A" },
-        "Second_subject": { "Subject": "Art", "Grade": "B" }
+        "grade_level": "Senior",
+        "first_subject": { "Subject": "Public Speaking", "Grade": "A" },
+        "second_subject": { "Subject": "Art", "Grade": "B" }
         },
         {
         "id": 27,
@@ -265,9 +265,9 @@ let student = [
         "last_name": "Trimme",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Senior",
-        "First_subject": { "Subject": "History", "Grade": "B" },
-        "Second_subject": { "Subject": "PE", "Grade": "D" }
+        "grade_level": "Senior",
+        "first_subject": { "Subject": "History", "Grade": "B" },
+        "second_subject": { "Subject": "PE", "Grade": "D" }
         },
         {
         "id": 28,
@@ -275,9 +275,9 @@ let student = [
         "last_name": "Duffield",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Senior",
-        "First_subject": { "Subject": "History", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "A" }
+        "grade_level": "Senior",
+        "first_subject": { "Subject": "History", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "A" }
         },
         {
         "id": 29,
@@ -285,9 +285,9 @@ let student = [
         "last_name": "Goodburn",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Junior",
-        "First_subject": { "Subject": "History", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "C" }
+        "grade_level": "Junior",
+        "first_subject": { "Subject": "History", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "C" }
         },
         {
         "id": 30,
@@ -295,9 +295,9 @@ let student = [
         "last_name": "Tembey",
         "gender": "Female",
         "ranking": 0,
-        "Grade_level": "Junior",
-        "First_subject": { "Subject": "Trigonometry", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "D" }
+        "grade_level": "Junior",
+        "first_subject": { "Subject": "Trigonometry", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "D" }
         },
         {
         "id": 31,
@@ -305,9 +305,9 @@ let student = [
         "last_name": "Mapstone",
         "gender": "Female",
         "ranking": 0,
-        "Grade_level": "Sophomore",
-        "First_subject": { "Subject": "Algebra", "Grade": "A" },
-        "Second_subject": { "Subject": "Art", "Grade": "D" }
+        "grade_level": "Sophomore",
+        "first_subject": { "Subject": "Algebra", "Grade": "A" },
+        "second_subject": { "Subject": "Art", "Grade": "D" }
         },
         {
         "id": 32,
@@ -315,9 +315,9 @@ let student = [
         "last_name": "Stranio",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Senior",
-        "First_subject": { "Subject": "Algebra", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "F" }
+        "grade_level": "Senior",
+        "first_subject": { "Subject": "Algebra", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "F" }
         },
         {
         "id": 33,
@@ -325,9 +325,9 @@ let student = [
         "last_name": "Tessier",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Senior",
-        "First_subject": { "Subject": "History", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "D" }
+        "grade_level": "Senior",
+        "first_subject": { "Subject": "History", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "D" }
         },
         {
         "id": 34,
@@ -335,9 +335,9 @@ let student = [
         "last_name": "Titheridge",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Senior",
-        "First_subject": { "Subject": "Algebra", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "F" }
+        "grade_level": "Senior",
+        "first_subject": { "Subject": "Algebra", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "F" }
         },
         {
         "id": 35,
@@ -345,9 +345,9 @@ let student = [
         "last_name": "Bartod",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Freshmen",
-        "First_subject": { "Subject": "Public Speaking", "Grade": "A" },
-        "Second_subject": { "Subject": "Art", "Grade": "B" }
+        "grade_level": "Freshmen",
+        "first_subject": { "Subject": "Public Speaking", "Grade": "A" },
+        "second_subject": { "Subject": "Art", "Grade": "B" }
         },
         {
         "id": 36,
@@ -355,9 +355,9 @@ let student = [
         "last_name": "Zuanelli",
         "gender": "Female",
         "ranking": 0,
-        "Grade_level": "Junior",
-        "First_subject": { "Subject": "History", "Grade": "B" },
-        "Second_subject": { "Subject": "Physics", "Grade": "C" }
+        "grade_level": "Junior",
+        "first_subject": { "Subject": "History", "Grade": "B" },
+        "second_subject": { "Subject": "Physics", "Grade": "C" }
         },
         {
         "id": 37,
@@ -365,9 +365,9 @@ let student = [
         "last_name": "Shinton",
         "gender": "Female",
         "ranking": 0,
-        "Grade_level": "Sophomore",
-        "First_subject": { "Subject": "History", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "D" }
+        "grade_level": "Sophomore",
+        "first_subject": { "Subject": "History", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "D" }
         },
         {
         "id": 38,
@@ -375,9 +375,9 @@ let student = [
         "last_name": "Bartolomeazzi",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Sophomore",
-        "First_subject": { "Subject": "History", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "F" }
+        "grade_level": "Sophomore",
+        "first_subject": { "Subject": "History", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "F" }
         },
         {
         "id": 39,
@@ -385,9 +385,9 @@ let student = [
         "last_name": "Kadd",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Senior",
-        "First_subject": { "Subject": "Public Speaking", "Grade": "A" },
-        "Second_subject": { "Subject": "Art", "Grade": "C" }
+        "grade_level": "Senior",
+        "first_subject": { "Subject": "Public Speaking", "Grade": "A" },
+        "second_subject": { "Subject": "Art", "Grade": "C" }
         },
         {
         "id": 40,
@@ -395,9 +395,9 @@ let student = [
         "last_name": "Murton",
         "gender": "Female",
         "ranking": 0,
-        "Grade_level": "Junior",
-        "First_subject": { "Subject": "Sociology", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "F" }
+        "grade_level": "Junior",
+        "first_subject": { "Subject": "Sociology", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "F" }
         },
         {
         "id": 41,
@@ -405,9 +405,9 @@ let student = [
         "last_name": "Colum",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Senior",
-        "First_subject": { "Subject": "History", "Grade": "A" },
-        "Second_subject": { "Subject": "Biology", "Grade": "D" }
+        "grade_level": "Senior",
+        "first_subject": { "Subject": "History", "Grade": "A" },
+        "second_subject": { "Subject": "Biology", "Grade": "D" }
         },
         {
         "id": 42,
@@ -415,9 +415,9 @@ let student = [
         "last_name": "Sammon",
         "gender": "Female",
         "ranking": 0,
-        "Grade_level": "Sophomore",
-        "First_subject": { "Subject": "Algebra", "Grade": "A" },
-        "Second_subject": { "Subject": "Biology", "Grade": "F" }
+        "grade_level": "Sophomore",
+        "first_subject": { "Subject": "Algebra", "Grade": "A" },
+        "second_subject": { "Subject": "Biology", "Grade": "F" }
         },
         {
         "id": 43,
@@ -425,9 +425,9 @@ let student = [
         "last_name": "Darrigoe",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Senior",
-        "First_subject": { "Subject": "History", "Grade": "A" },
-        "Second_subject": { "Subject": "Art", "Grade": "F" }
+        "grade_level": "Senior",
+        "first_subject": { "Subject": "History", "Grade": "A" },
+        "second_subject": { "Subject": "Art", "Grade": "F" }
         },
         {
         "id": 44,
@@ -435,9 +435,9 @@ let student = [
         "last_name": "Fewkes",
         "gender": "Genderfluid",
         "ranking": 0,
-        "Grade_level": "Junior",
-        "First_subject": { "Subject": "Public Speaking", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "D" }
+        "grade_level": "Junior",
+        "first_subject": { "Subject": "Public Speaking", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "D" }
         },
         {
         "id": 45,
@@ -445,9 +445,9 @@ let student = [
         "last_name": "Roskilly",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Sophomore",
-        "First_subject": { "Subject": "History", "Grade": "B" },
-        "Second_subject": { "Subject": "Physics", "Grade": "D" }
+        "grade_level": "Sophomore",
+        "first_subject": { "Subject": "History", "Grade": "B" },
+        "second_subject": { "Subject": "Physics", "Grade": "D" }
         },
         {
         "id": 46,
@@ -455,9 +455,9 @@ let student = [
         "last_name": "MacPake",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Junior",
-        "First_subject": { "Subject": "History", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "F" }
+        "grade_level": "Junior",
+        "first_subject": { "Subject": "History", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "F" }
         },
         {
         "id": 47,
@@ -465,9 +465,9 @@ let student = [
         "last_name": "Kielty",
         "gender": "Polygender",
         "ranking": 0,
-        "Grade_level": "Sophomore",
-        "First_subject": { "Subject": "Trigonometry", "Grade": "B" },
-        "Second_subject": { "Subject": "Physics", "Grade": "C" }
+        "grade_level": "Sophomore",
+        "first_subject": { "Subject": "Trigonometry", "Grade": "B" },
+        "second_subject": { "Subject": "Physics", "Grade": "C" }
         },
         {
         "id": 48,
@@ -475,9 +475,9 @@ let student = [
         "last_name": "Lysaght",
         "gender": "Female",
         "ranking": 0,
-        "Grade_level": "Sophomore",
-        "First_subject": { "Subject": "Trigonometry", "Grade": "A" },
-        "Second_subject": { "Subject": "Calculus", "Grade": "F" }
+        "grade_level": "Sophomore",
+        "first_subject": { "Subject": "Trigonometry", "Grade": "A" },
+        "second_subject": { "Subject": "Calculus", "Grade": "F" }
         },
         {
         "id": 49,
@@ -485,9 +485,9 @@ let student = [
         "last_name": "Wilkes",
         "gender": "Bigender",
         "ranking": 0,
-        "Grade_level": "Freshmen",
-        "First_subject": { "Subject": "History", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "D" }
+        "grade_level": "Freshmen",
+        "first_subject": { "Subject": "History", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "D" }
         },
         {
         "id": 50,
@@ -495,9 +495,9 @@ let student = [
         "last_name": "Ditter",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Junior",
-        "First_subject": { "Subject": "Trigonometry", "Grade": "F" },
-        "Second_subject": { "Subject": "Physics", "Grade": "D" }
+        "grade_level": "Junior",
+        "first_subject": { "Subject": "Trigonometry", "Grade": "F" },
+        "second_subject": { "Subject": "Physics", "Grade": "D" }
         },
         {
         "id": 51,
@@ -505,9 +505,9 @@ let student = [
         "last_name": "Ettery",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Junior",
-        "First_subject": { "Subject": "History", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "F" }
+        "grade_level": "Junior",
+        "first_subject": { "Subject": "History", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "F" }
         },
         {
         "id": 52,
@@ -515,9 +515,9 @@ let student = [
         "last_name": "Rundall",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Junior",
-        "First_subject": { "Subject": "Sociology", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "D" }
+        "grade_level": "Junior",
+        "first_subject": { "Subject": "Sociology", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "D" }
         },
         {
         "id": 53,
@@ -525,9 +525,9 @@ let student = [
         "last_name": "Creane",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Junior",
-        "First_subject": { "Subject": "Algebra", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "F" }
+        "grade_level": "Junior",
+        "first_subject": { "Subject": "Algebra", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "F" }
         },
         {
         "id": 54,
@@ -535,9 +535,9 @@ let student = [
         "last_name": "Alejandro",
         "gender": "Female",
         "ranking": 0,
-        "Grade_level": "Senior",
-        "First_subject": { "Subject": "Algebra", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "B" }
+        "grade_level": "Senior",
+        "first_subject": { "Subject": "Algebra", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "B" }
         },
         {
         "id": 55,
@@ -545,9 +545,9 @@ let student = [
         "last_name": "Weare",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Senior",
-        "First_subject": { "Subject": "Algebra", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "F" }
+        "grade_level": "Senior",
+        "first_subject": { "Subject": "Algebra", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "F" }
         },
         {
         "id": 56,
@@ -555,9 +555,9 @@ let student = [
         "last_name": "Connelly",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Senior",
-        "First_subject": { "Subject": "Trigonometry", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "F" }
+        "grade_level": "Senior",
+        "first_subject": { "Subject": "Trigonometry", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "F" }
         },
         {
         "id": 57,
@@ -565,9 +565,9 @@ let student = [
         "last_name": "Rosekilly",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Freshmen",
-        "First_subject": { "Subject": "History", "Grade": "F" },
-        "Second_subject": { "Subject": "Biology", "Grade": "F" }
+        "grade_level": "Freshmen",
+        "first_subject": { "Subject": "History", "Grade": "F" },
+        "second_subject": { "Subject": "Biology", "Grade": "F" }
         },
         {
         "id": 58,
@@ -575,9 +575,9 @@ let student = [
         "last_name": "Atley",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Junior",
-        "First_subject": { "Subject": "Algebra", "Grade": "B" },
-        "Second_subject": { "Subject": "Writing", "Grade": "F" }
+        "grade_level": "Junior",
+        "first_subject": { "Subject": "Algebra", "Grade": "B" },
+        "second_subject": { "Subject": "Writing", "Grade": "F" }
         },
         {
         "id": 59,
@@ -585,9 +585,9 @@ let student = [
         "last_name": "Seacroft",
         "gender": "Genderqueer",
         "ranking": 0,
-        "Grade_level": "Junior",
-        "First_subject": { "Subject": "Algebra", "Grade": "B" },
-        "Second_subject": { "Subject": "Art", "Grade": "F" }
+        "grade_level": "Junior",
+        "first_subject": { "Subject": "Algebra", "Grade": "B" },
+        "second_subject": { "Subject": "Art", "Grade": "F" }
         },
         {
         "id": 60,
@@ -595,9 +595,9 @@ let student = [
         "last_name": "Willbraham",
         "gender": "Female",
         "ranking": 0,
-        "Grade_level": "Senior",
-        "First_subject": { "Subject": "History", "Grade": "A" },
-        "Second_subject": { "Subject": "Calculus", "Grade": "F" }
+        "grade_level": "Senior",
+        "first_subject": { "Subject": "History", "Grade": "A" },
+        "second_subject": { "Subject": "Calculus", "Grade": "F" }
         },
         {
         "id": 61,
@@ -605,9 +605,9 @@ let student = [
         "last_name": "Wasteney",
         "gender": "Polygender",
         "ranking": 0,
-        "Grade_level": "Freshmen",
-        "First_subject": { "Subject": "History", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "D" }
+        "grade_level": "Freshmen",
+        "first_subject": { "Subject": "History", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "D" }
         },
         {
         "id": 62,
@@ -615,9 +615,9 @@ let student = [
         "last_name": "Bettridge",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Freshmen",
-        "First_subject": { "Subject": "Algebra", "Grade": "A" },
-        "Second_subject": { "Subject": "Art", "Grade": "A" }
+        "grade_level": "Freshmen",
+        "first_subject": { "Subject": "Algebra", "Grade": "A" },
+        "second_subject": { "Subject": "Art", "Grade": "A" }
         },
         {
         "id": 63,
@@ -625,9 +625,9 @@ let student = [
         "last_name": "Gawkroge",
         "gender": "Female",
         "ranking": 0,
-        "Grade_level": "Freshmen",
-        "First_subject": { "Subject": "Trigonometry", "Grade": "A" },
-        "Second_subject": { "Subject": "Art", "Grade": "F" }
+        "grade_level": "Freshmen",
+        "first_subject": { "Subject": "Trigonometry", "Grade": "A" },
+        "second_subject": { "Subject": "Art", "Grade": "F" }
         },
         {
         "id": 64,
@@ -635,9 +635,9 @@ let student = [
         "last_name": "Adamovicz",
         "gender": "Female",
         "ranking": 0,
-        "Grade_level": "Senior",
-        "First_subject": { "Subject": "History", "Grade": "B" },
-        "Second_subject": { "Subject": "Physics", "Grade": "F" }
+        "grade_level": "Senior",
+        "first_subject": { "Subject": "History", "Grade": "B" },
+        "second_subject": { "Subject": "Physics", "Grade": "F" }
         },
         {
         "id": 65,
@@ -645,9 +645,9 @@ let student = [
         "last_name": "Cayley",
         "gender": "Female",
         "ranking": 0,
-        "Grade_level": "Senior",
-        "First_subject": { "Subject": "History", "Grade": "A" },
-        "Second_subject": { "Subject": "Biology", "Grade": "D" }
+        "grade_level": "Senior",
+        "first_subject": { "Subject": "History", "Grade": "A" },
+        "second_subject": { "Subject": "Biology", "Grade": "D" }
         },
         {
         "id": 66,
@@ -655,9 +655,9 @@ let student = [
         "last_name": "Edleston",
         "gender": "Agender",
         "ranking": 0,
-        "Grade_level": "Junior",
-        "First_subject": { "Subject": "Algebra", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "D" }
+        "grade_level": "Junior",
+        "first_subject": { "Subject": "Algebra", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "D" }
         },
         {
         "id": 67,
@@ -665,9 +665,9 @@ let student = [
         "last_name": "Semmens",
         "gender": "Female",
         "ranking": 0,
-        "Grade_level": "Junior",
-        "First_subject": { "Subject": "Public Speaking", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "B" }
+        "grade_level": "Junior",
+        "first_subject": { "Subject": "Public Speaking", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "B" }
         },
         {
         "id": 68,
@@ -675,9 +675,9 @@ let student = [
         "last_name": "Summerrell",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Junior",
-        "First_subject": { "Subject": "Trigonometry", "Grade": "B" },
-        "Second_subject": { "Subject": "Art", "Grade": "C" }
+        "grade_level": "Junior",
+        "first_subject": { "Subject": "Trigonometry", "Grade": "B" },
+        "second_subject": { "Subject": "Art", "Grade": "C" }
         },
         {
         "id": 69,
@@ -685,9 +685,9 @@ let student = [
         "last_name": "Proffer",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Senior",
-        "First_subject": { "Subject": "History", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "D" }
+        "grade_level": "Senior",
+        "first_subject": { "Subject": "History", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "D" }
         },
         {
         "id": 70,
@@ -695,9 +695,9 @@ let student = [
         "last_name": "Reef",
         "gender": "Female",
         "ranking": 0,
-        "Grade_level": "Senior",
-        "First_subject": { "Subject": "Trigonometry", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "F" }
+        "grade_level": "Senior",
+        "first_subject": { "Subject": "Trigonometry", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "F" }
         },
         {
         "id": 71,
@@ -705,9 +705,9 @@ let student = [
         "last_name": "McGuff",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Junior",
-        "First_subject": { "Subject": "Algebra", "Grade": "A" },
-        "Second_subject": { "Subject": "Writing", "Grade": "C" }
+        "grade_level": "Junior",
+        "first_subject": { "Subject": "Algebra", "Grade": "A" },
+        "second_subject": { "Subject": "Writing", "Grade": "C" }
         },
         {
         "id": 72,
@@ -715,9 +715,9 @@ let student = [
         "last_name": "Edgworth",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Junior",
-        "First_subject": { "Subject": "History", "Grade": "B" },
-        "Second_subject": { "Subject": "Physics", "Grade": "D" }
+        "grade_level": "Junior",
+        "first_subject": { "Subject": "History", "Grade": "B" },
+        "second_subject": { "Subject": "Physics", "Grade": "D" }
         },
         {
         "id": 73,
@@ -725,9 +725,9 @@ let student = [
         "last_name": "Luxton",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Senior",
-        "First_subject": { "Subject": "Algebra", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "F" }
+        "grade_level": "Senior",
+        "first_subject": { "Subject": "Algebra", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "F" }
         },
         {
         "id": 74,
@@ -735,9 +735,9 @@ let student = [
         "last_name": "McGorley",
         "gender": "Female",
         "ranking": 0,
-        "Grade_level": "Senior",
-        "First_subject": { "Subject": "Algebra", "Grade": "B" },
-        "Second_subject": { "Subject": "Art", "Grade": "F" }
+        "grade_level": "Senior",
+        "first_subject": { "Subject": "Algebra", "Grade": "B" },
+        "second_subject": { "Subject": "Art", "Grade": "F" }
         },
         {
         "id": 75,
@@ -745,9 +745,9 @@ let student = [
         "last_name": "Ewestace",
         "gender": "Female",
         "ranking": 0,
-        "Grade_level": "Senior",
-        "First_subject": { "Subject": "Algebra", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "F" }
+        "grade_level": "Senior",
+        "first_subject": { "Subject": "Algebra", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "F" }
         },
         {
         "id": 76,
@@ -755,9 +755,9 @@ let student = [
         "last_name": "Benoist",
         "gender": "Female",
         "ranking": 0,
-        "Grade_level": "Junior",
-        "First_subject": { "Subject": "History", "Grade": "B" },
-        "Second_subject": { "Subject": "Art", "Grade": "F" }
+        "grade_level": "Junior",
+        "first_subject": { "Subject": "History", "Grade": "B" },
+        "second_subject": { "Subject": "Art", "Grade": "F" }
         },
         {
         "id": 77,
@@ -765,9 +765,9 @@ let student = [
         "last_name": "Kinkade",
         "gender": "Female",
         "ranking": 0,
-        "Grade_level": "Senior",
-        "First_subject": { "Subject": "History", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "D" }
+        "grade_level": "Senior",
+        "first_subject": { "Subject": "History", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "D" }
         },
         {
         "id": 78,
@@ -775,9 +775,9 @@ let student = [
         "last_name": "Dhillon",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Junior",
-        "First_subject": { "Subject": "History", "Grade": "B" },
-        "Second_subject": { "Subject": "Physics", "Grade": "F" }
+        "grade_level": "Junior",
+        "first_subject": { "Subject": "History", "Grade": "B" },
+        "second_subject": { "Subject": "Physics", "Grade": "F" }
         },
         {
         "id": 79,
@@ -785,9 +785,9 @@ let student = [
         "last_name": "Medgewick",
         "gender": "Female",
         "ranking": 0,
-        "Grade_level": "Senior",
-        "First_subject": { "Subject": "Science", "Grade": "A" },
-        "Second_subject": { "Subject": "Calculus", "Grade": "B" }
+        "grade_level": "Senior",
+        "first_subject": { "Subject": "Science", "Grade": "A" },
+        "second_subject": { "Subject": "Calculus", "Grade": "B" }
         },
         {
         "id": 80,
@@ -795,9 +795,9 @@ let student = [
         "last_name": "Labet",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Senior",
-        "First_subject": { "Subject": "History", "Grade": "A" },
-        "Second_subject": { "Subject": "Biology", "Grade": "F" }
+        "grade_level": "Senior",
+        "first_subject": { "Subject": "History", "Grade": "A" },
+        "second_subject": { "Subject": "Biology", "Grade": "F" }
         },
         {
         "id": 81,
@@ -805,9 +805,9 @@ let student = [
         "last_name": "Taw",
         "gender": "Female",
         "ranking": 0,
-        "Grade_level": "Junior",
-        "First_subject": { "Subject": "History", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "F" }
+        "grade_level": "Junior",
+        "first_subject": { "Subject": "History", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "F" }
         },
         {
         "id": 82,
@@ -815,9 +815,9 @@ let student = [
         "last_name": "McTurk",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Junior",
-        "First_subject": { "Subject": "Algebra", "Grade": "A" },
-        "Second_subject": { "Subject": "Writing", "Grade": "F" }
+        "grade_level": "Junior",
+        "first_subject": { "Subject": "Algebra", "Grade": "A" },
+        "second_subject": { "Subject": "Writing", "Grade": "F" }
         },
         {
         "id": 83,
@@ -825,9 +825,9 @@ let student = [
         "last_name": "De Malchar",
         "gender": "Female",
         "ranking": 0,
-        "Grade_level": "Freshmen",
-        "First_subject": { "Subject": "History", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "F" }
+        "grade_level": "Freshmen",
+        "first_subject": { "Subject": "History", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "F" }
         },
         {
         "id": 84,
@@ -835,9 +835,9 @@ let student = [
         "last_name": "Meriot",
         "gender": "Genderqueer",
         "ranking": 0,
-        "Grade_level": "Freshmen",
-        "First_subject": { "Subject": "English", "Grade": "A" },
-        "Second_subject": { "Subject": "Writing", "Grade": "D" }
+        "grade_level": "Freshmen",
+        "first_subject": { "Subject": "English", "Grade": "A" },
+        "second_subject": { "Subject": "Writing", "Grade": "D" }
         },
         {
         "id": 85,
@@ -845,9 +845,9 @@ let student = [
         "last_name": "Dobbings",
         "gender": "Female",
         "ranking": 0,
-        "Grade_level": "Freshmen",
-        "First_subject": { "Subject": "History", "Grade": "B" },
-        "Second_subject": { "Subject": "Physics", "Grade": "C" }
+        "grade_level": "Freshmen",
+        "first_subject": { "Subject": "History", "Grade": "B" },
+        "second_subject": { "Subject": "Physics", "Grade": "C" }
         },
         {
         "id": 86,
@@ -855,9 +855,9 @@ let student = [
         "last_name": "Whibley",
         "gender": "Female",
         "ranking": 0,
-        "Grade_level": "Sophomore",
-        "First_subject": { "Subject": "History", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "C" }
+        "grade_level": "Sophomore",
+        "first_subject": { "Subject": "History", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "C" }
         },
         {
         "id": 87,
@@ -865,9 +865,9 @@ let student = [
         "last_name": "Monte",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Freshmen",
-        "First_subject": { "Subject": "History", "Grade": "B" },
-        "Second_subject": { "Subject": "Biology", "Grade": "F" }
+        "grade_level": "Freshmen",
+        "first_subject": { "Subject": "History", "Grade": "B" },
+        "second_subject": { "Subject": "Biology", "Grade": "F" }
         },
         {
         "id": 88,
@@ -875,9 +875,9 @@ let student = [
         "last_name": "Renehan",
         "gender": "Female",
         "ranking": 0,
-        "Grade_level": "Senior",
-        "First_subject": { "Subject": "English", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "F" }
+        "grade_level": "Senior",
+        "first_subject": { "Subject": "English", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "F" }
         },
         {
         "id": 89,
@@ -885,9 +885,9 @@ let student = [
         "last_name": "Goodwyn",
         "gender": "Female",
         "ranking": 0,
-        "Grade_level": "Freshmen",
-        "First_subject": { "Subject": "Algebra", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "C" }
+        "grade_level": "Freshmen",
+        "first_subject": { "Subject": "Algebra", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "C" }
         },
         {
         "id": 90,
@@ -895,9 +895,9 @@ let student = [
         "last_name": "Liddard",
         "gender": "Female",
         "ranking": 0,
-        "Grade_level": "Freshmen",
-        "First_subject": { "Subject": "History", "Grade": "A" },
-        "Second_subject": { "Subject": "Art", "Grade": "F" }
+        "grade_level": "Freshmen",
+        "first_subject": { "Subject": "History", "Grade": "A" },
+        "second_subject": { "Subject": "Art", "Grade": "F" }
         },
         {
         "id": 91,
@@ -905,9 +905,9 @@ let student = [
         "last_name": "Torrisi",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Senior",
-        "First_subject": { "Subject": "Algebra", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "F" }
+        "grade_level": "Senior",
+        "first_subject": { "Subject": "Algebra", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "F" }
         },
         {
         "id": 92,
@@ -915,9 +915,9 @@ let student = [
         "last_name": "McCuffie",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Freshmen",
-        "First_subject": { "Subject": "Algebra", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "D" }
+        "grade_level": "Freshmen",
+        "first_subject": { "Subject": "Algebra", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "D" }
         },
         {
         "id": 93,
@@ -925,9 +925,9 @@ let student = [
         "last_name": "Boome",
         "gender": "Polygender",
         "ranking": 0,
-        "Grade_level": "Senior",
-        "First_subject": { "Subject": "History", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "F" }
+        "grade_level": "Senior",
+        "first_subject": { "Subject": "History", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "F" }
         },
         {
         "id": 94,
@@ -935,9 +935,9 @@ let student = [
         "last_name": "Adelsberg",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Senior",
-        "First_subject": { "Subject": "History", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "A" }
+        "grade_level": "Senior",
+        "first_subject": { "Subject": "History", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "A" }
         },
         {
         "id": 95,
@@ -945,9 +945,9 @@ let student = [
         "last_name": "Cure",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Junior",
-        "First_subject": { "Subject": "Public Speaking", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "D" }
+        "grade_level": "Junior",
+        "first_subject": { "Subject": "Public Speaking", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "D" }
         },
         {
         "id": 96,
@@ -955,9 +955,9 @@ let student = [
         "last_name": "Fowlston",
         "gender": "Bigender",
         "ranking": 0,
-        "Grade_level": "Senior",
-        "First_subject": { "Subject": "History", "Grade": "A" },
-        "Second_subject": { "Subject": "Art", "Grade": "D" }
+        "grade_level": "Senior",
+        "first_subject": { "Subject": "History", "Grade": "A" },
+        "second_subject": { "Subject": "Art", "Grade": "D" }
         },
         {
         "id": 97,
@@ -965,9 +965,9 @@ let student = [
         "last_name": "O' Driscoll",
         "gender": "Female",
         "ranking": 0,
-        "Grade_level": "Junior",
-        "First_subject": { "Subject": "Public Speaking", "Grade": "A" },
-        "Second_subject": { "Subject": "Art", "Grade": "D" }
+        "grade_level": "Junior",
+        "first_subject": { "Subject": "Public Speaking", "Grade": "A" },
+        "second_subject": { "Subject": "Art", "Grade": "D" }
         },
         {
         "id": 98,
@@ -975,9 +975,9 @@ let student = [
         "last_name": "Argente",
         "gender": "Female",
         "ranking": 0,
-        "Grade_level": "Senior",
-        "First_subject": { "Subject": "Algebra", "Grade": "A" },
-        "Second_subject": { "Subject": "Physics", "Grade": "D" }
+        "grade_level": "Senior",
+        "first_subject": { "Subject": "Algebra", "Grade": "A" },
+        "second_subject": { "Subject": "Physics", "Grade": "D" }
         },
         {
         "id": 99,
@@ -985,9 +985,9 @@ let student = [
         "last_name": "Nendick",
         "gender": "Female",
         "ranking": 0,
-        "Grade_level": "Freshmen",
-        "First_subject": { "Subject": "Algebra", "Grade": "A" },
-        "Second_subject": { "Subject": "Art", "Grade": "D" }
+        "grade_level": "Freshmen",
+        "first_subject": { "Subject": "Algebra", "Grade": "A" },
+        "second_subject": { "Subject": "Art", "Grade": "D" }
         },
         {
         "id": 100,
@@ -995,12 +995,21 @@ let student = [
         "last_name": "Redmond",
         "gender": "Male",
         "ranking": 0,
-        "Grade_level": "Senior",
-        "First_subject": { "Subject": "History", "Grade": "A" },
-        "Second_subject": { "Subject": "Writing", "Grade": "F" }
+        "grade_level": "Senior",
+        "first_subject": { "Subject": "History", "Grade": "A" },
+        "second_subject": { "Subject": "Writing", "Grade": "F" }
         }
-]
-        
+]  
+
+// Looping thought to get each key
+const keys = new Set();
+student.forEach(s => {
+    Object.keys(s).forEach(key => keys.add(key));
+})
+console.log(keys);
+
+
+
 /****** Use Cases ******/ 
 // Iesha
 /* Use case 1 */
