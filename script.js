@@ -1,4 +1,4 @@
-const student = [ 
+const students = [ 
         {
         "id": 1,
         "first_name": "Issy",
@@ -1008,8 +1008,6 @@ student.forEach(s => {
 })
 console.log(keys);
 
-
-
 /****** Use Cases ******/ 
 // Iesha
 /* Use case 1 */
@@ -1027,8 +1025,7 @@ console.log(keys);
 
 // Rosita
 /* Use case 1  Map */
-// Roll Call
-
+// Roll call attendance 
 
 
 /* Use case 2  Filter */
