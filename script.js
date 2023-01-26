@@ -15,7 +15,7 @@ const students = [
         "last_name": "Humphries",
         "gender": "Female",
         "ranking": 0,
-        "grade_level": "Junior",
+        "grade_level": "Senor",
         "first_subject": { "Subject": "History", "Grade": "A" },
         "second_subject": { "Subject": "Physics", "Grade": "F" }
         },
@@ -1003,7 +1003,7 @@ const students = [
 
 // Looping thought to get each key
 const keys = new Set();
-student.forEach(s => {
+students.forEach(s => {
     Object.keys(s).forEach(key => keys.add(key));
 })
 console.log(keys);
@@ -1012,25 +1012,70 @@ console.log(keys);
 // Iesha
 /* Use case 1 */
 
-
-
 /* Use case 2 */
-
-
-
 
 /* Use case 3 */
 
 
 
-// Rosita
+// Rosita - ES6
 /* Use case 1  Map */
 // Roll call attendance 
+// students.map((s) => {
+//     console.log(s.first_name, s.last_name)
+// })
+
+
+// Sort names - parentheses additinoal logic needed
+const sortedStudents = students.map((s) => (
+    s.first_name
+)).sort();
+
+// console.log(sortedStudents);
 
 
 /* Use case 2  Filter */
+const studentWithA = students.filter(student => {
+    return student.first_subject.Grade === 'A' && student.second_subject.Grade === 'A'
+})
+// console.log(studentWithA);
 
 
+const updatedStudents = students.map(student => {
+    let ranking = 0;
+    if(student.first_subject.Grade === 'A' && student.second_subject.Grade === 'A') {
+        ranking = 10;
+    }else if(student.first_subject.Grade === 'A' || student.second_subject.Grade === 'A'){
+        ranking = 5;
+    }
+    return{...student, ranking};
+})
+// console.log(updatedStudents);
 
 
 /* Use case 3 Reduce */
+// Total number of students in each grade level
+// junior, freshmen sophomore,senior
+const countGradeLevel = students.reduce((acc, student) => {
+    if(student.grade_level === 'Freshmen') acc.freshmen++;
+    if(student.grade_level === 'Sophomore') acc.sophomore++;
+    if(student.grade_level === 'Junior') acc.junior++;
+    if(student.grade_level === 'Senior') acc.senior++;
+    return acc    
+}, {freshmen:0, sophomore:0, junior:0, senior:0})
+
+// console.log(countGradeLevel);
+
+
+const studentsByGradeLevel = students.reduce((acc, student) => {
+    acc[student.grade_level] = (acc[student.grade_level] || 0) + 1;
+    return acc;
+}, {});
+// console.log(studentsByGradeLevel);
+
+
+// Number of students that have an A
+const seniorCount = students.reduce((count, student) => 
+  student.grade_level === 'Senior' && (student.first_subject.Grade === 'A' || student.second_subject.Grade === 'A') ?  count + 1 : count, 0);
+  
+console.log("Number of seniors that have an A:", seniorCount);
