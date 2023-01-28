@@ -1804,7 +1804,86 @@ const teachers = [
     }
 ]
 
-
+const substitutes = [
+{
+    "id": 1,
+    "first_name": "Silvia",
+    "last_name": "Imesson",
+    "salary": 66423,
+    "start_year": 2016,
+    "class": "Physics"
+    }, {
+    "id": 2,
+    "first_name": "Marvin",
+    "last_name": "Joust",
+    "salary": 24312,
+    "start_year": 2012,
+    "class": "Writing"
+    }, {
+    "id": 3,
+    "first_name": "Windy",
+    "last_name": "Deinert",
+    "salary": 56421,
+    "start_year": 2021,
+    "class": "Art"
+    }, {
+    "id": 4,
+    "first_name": "Emilio",
+    "last_name": "Ronayne",
+    "salary": 96087,
+    "start_year": 2021,
+    "class": "Psychology"
+    }, {
+    "id": 5,
+    "first_name": "Spike",
+    "last_name": "Rominov",
+    "salary": 76185,
+    "start_year": 2012,
+    "class": "Biology"
+    }, {
+    "id": 6,
+    "first_name": "Desiree",
+    "last_name": "Toseland",
+    "salary": 33337,
+    "start_year": 2001,
+    "class": "PE"
+    }, {
+    "id": 7,
+    "first_name": "Gladys",
+    "last_name": "Kowalik",
+    "salary": 7702,
+    "start_year": 2021,
+    "class": "Calculus"
+    }, {
+    "id": 8,
+    "first_name": "Diena",
+    "last_name": "Werny",
+    "salary": 65856,
+    "start_year": 2014,
+    "class": "History"
+    }, {
+    "id": 9,
+    "first_name": "Kienan",
+    "last_name": "Samter",
+    "salary": 69297,
+    "start_year": 2009,
+    "class": "Algebra"
+    }, {
+    "id": 10,
+    "first_name": "Wendie",
+    "last_name": "Jouannisson",
+    "salary": 4746,
+    "start_year": 2022,
+    "class": "Public Speaking"
+    }, {
+    "id": 11,
+    "first_name": "Harri",
+    "last_name": "Pinches",
+    "salary": 75294,
+    "start_year": 2016,
+    "class": "Trigonometry"
+    }
+]
 
 
 // Iesha  - Map, Filter, Reduce 
@@ -1819,11 +1898,20 @@ const teachers = [
 
 
 // Rosita  
-/* Use Case 1 */
+/* Use Case 1 - map */
 // Possible Use Case - Give a student a ranking based on their letter grade. 
+
+
+
+/* Use Case 2  - filter*/
 // Possible Use Case - Give a teacher a raise based on certain salary ranges 
 
-/* Use Case 2 */
 
-/* USe Case 3 */
+
+
+/* Use Case 3 - reduce */
+// Total sum of each student per grade level
+
+// Array.prototype.reduce() - iterate over an array and reduce it to a single value.
+// Freshman , Sophomore, Junior, Senior
 
