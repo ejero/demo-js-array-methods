@@ -5,9 +5,9 @@ const students = [
         "last_name": "Reisenstein",
         "gender": "Female",
         "ranking": 0,
-        "grade_level": "Senior",
+        "grade_level": "Sophomore",
         "first_subject": { "Subject": "Algebra", "Grade": "A" },
-        "second_subject": { "Subject": "Physics", "Grade": "F" }
+        "second_subject": { "Subject": "Public Speaking", "Grade": "F" }
         },
         {
         "id": 2,
@@ -15,7 +15,7 @@ const students = [
         "last_name": "Humphries",
         "gender": "Female",
         "ranking": 0,
-        "grade_level": "Senor",
+        "grade_level": "Sophomore",
         "first_subject": { "Subject": "History", "Grade": "A" },
         "second_subject": { "Subject": "Physics", "Grade": "F" }
         },
@@ -25,7 +25,7 @@ const students = [
         "last_name": "Matyas",
         "gender": "Male",
         "ranking": 0,
-        "grade_level": "Freshmen",
+        "grade_level": "Freshman",
         "first_subject": { "Subject": "Public Speaking", "Grade": "A" },
         "second_subject": { "Subject": "Physics", "Grade": "C" }
         },
@@ -75,7 +75,7 @@ const students = [
         "last_name": "Rawles",
         "gender": "Male",
         "ranking": 0,
-        "grade_level": "Freshmen",
+        "grade_level": "Freshman",
         "first_subject": { "Subject": "History", "Grade": "B" },
         "second_subject": { "Subject": "Psychology", "Grade": "D" }
         },
@@ -87,7 +87,7 @@ const students = [
         "ranking": 0,
         "grade_level": "Senior",
         "first_subject": { "Subject": "Public Speaking", "Grade": "A" },
-        "second_subject": { "Subject": "Physics", "Grade": "D" }
+        "second_subject": { "Subject": "Calculus", "Grade": "D" }
         },
         {
         "id": 10,
@@ -115,7 +115,7 @@ const students = [
         "last_name": "Fidler",
         "gender": "Female",
         "ranking": 0,
-        "grade_level": "Senior",
+        "grade_level": "Sophomore",
         "first_subject": { "Subject": "Algebra", "Grade": "A" },
         "second_subject": { "Subject": "Physics", "Grade": "F" }
         },
@@ -135,9 +135,9 @@ const students = [
         "last_name": "Rohlfing",
         "gender": "Male",
         "ranking": 0,
-        "grade_level": "Senior",
+        "grade_level": "Sophomore",
         "first_subject": { "Subject": "Algebra", "Grade": "A" },
-        "second_subject": { "Subject": "Physics", "Grade": "D" }
+        "second_subject": { "Subject": "Calculus", "Grade": "D" }
         },
         {
         "id": 15,
@@ -177,7 +177,7 @@ const students = [
         "ranking": 0,
         "grade_level": "Junior",
         "first_subject": { "Subject": "Trigonometry", "Grade": "A" },
-        "second_subject": { "Subject": "Physics", "Grade": "D" }
+        "second_subject": { "Subject": "PE", "Grade": "D" }
         },
         {
         "id": 19,
@@ -187,7 +187,7 @@ const students = [
         "ranking": 0,
         "grade_level": "Junior",
         "first_subject": { "Subject": "History", "Grade": "A" },
-        "second_subject": { "Subject": "Art", "Grade": "B" }
+        "second_subject": { "Subject": "Trigonometry", "Grade": "B" }
         },
         {
         "id": 20,
@@ -215,9 +215,9 @@ const students = [
         "last_name": "Yakovlev",
         "gender": "Female",
         "ranking": 0,
-        "grade_level": "Freshmen",
+        "grade_level": "Freshman",
         "first_subject": { "Subject": "Public Speaking", "Grade": "B" },
-        "second_subject": { "Subject": "Physics", "Grade": "D" }
+        "second_subject": { "Subject": "Art", "Grade": "D" }
         },
         {
         "id": 23,
@@ -235,7 +235,7 @@ const students = [
         "last_name": "Malinson",
         "gender": "Genderfluid",
         "ranking": 0,
-        "grade_level": "Freshmen",
+        "grade_level": "Freshman",
         "first_subject": { "Subject": "History", "Grade": "C" },
         "second_subject": { "Subject": "Biology", "Grade": "A" }
         },
@@ -265,8 +265,8 @@ const students = [
         "last_name": "Trimme",
         "gender": "Male",
         "ranking": 0,
-        "grade_level": "Senior",
-        "first_subject": { "Subject": "History", "Grade": "B" },
+        "grade_level": "Sophomore",
+        "first_subject": { "Subject": "Art", "Grade": "B" },
         "second_subject": { "Subject": "PE", "Grade": "D" }
         },
         {
@@ -286,8 +286,8 @@ const students = [
         "gender": "Male",
         "ranking": 0,
         "grade_level": "Junior",
-        "first_subject": { "Subject": "History", "Grade": "A" },
-        "second_subject": { "Subject": "Physics", "Grade": "C" }
+        "first_subject": { "Subject": "Sociology", "Grade": "A" },
+        "second_subject": { "Subject": "Psychology", "Grade": "C" }
         },
         {
         "id": 30,
@@ -327,7 +327,7 @@ const students = [
         "ranking": 0,
         "grade_level": "Senior",
         "first_subject": { "Subject": "History", "Grade": "A" },
-        "second_subject": { "Subject": "Physics", "Grade": "D" }
+        "second_subject": { "Subject": "Public Speaking", "Grade": "D" }
         },
         {
         "id": 34,
@@ -345,7 +345,7 @@ const students = [
         "last_name": "Bartod",
         "gender": "Male",
         "ranking": 0,
-        "grade_level": "Freshmen",
+        "grade_level": "Freshman",
         "first_subject": { "Subject": "Public Speaking", "Grade": "A" },
         "second_subject": { "Subject": "Art", "Grade": "B" }
         },
@@ -356,7 +356,7 @@ const students = [
         "gender": "Female",
         "ranking": 0,
         "grade_level": "Junior",
-        "first_subject": { "Subject": "History", "Grade": "B" },
+        "first_subject": { "Subject": "Public Speaking", "Grade": "B" },
         "second_subject": { "Subject": "Physics", "Grade": "C" }
         },
         {
@@ -366,7 +366,7 @@ const students = [
         "gender": "Female",
         "ranking": 0,
         "grade_level": "Sophomore",
-        "first_subject": { "Subject": "History", "Grade": "A" },
+        "first_subject": { "Subject": "Biology", "Grade": "A" },
         "second_subject": { "Subject": "Physics", "Grade": "D" }
         },
         {
@@ -385,7 +385,7 @@ const students = [
         "last_name": "Kadd",
         "gender": "Male",
         "ranking": 0,
-        "grade_level": "Senior",
+        "grade_level": "Sophomore",
         "first_subject": { "Subject": "Public Speaking", "Grade": "A" },
         "second_subject": { "Subject": "Art", "Grade": "C" }
         },
@@ -397,7 +397,7 @@ const students = [
         "ranking": 0,
         "grade_level": "Junior",
         "first_subject": { "Subject": "Sociology", "Grade": "A" },
-        "second_subject": { "Subject": "Physics", "Grade": "F" }
+        "second_subject": { "Subject": "Biology", "Grade": "F" }
         },
         {
         "id": 41,
@@ -406,7 +406,7 @@ const students = [
         "gender": "Male",
         "ranking": 0,
         "grade_level": "Senior",
-        "first_subject": { "Subject": "History", "Grade": "A" },
+        "first_subject": { "Subject": "Trigonometry", "Grade": "A" },
         "second_subject": { "Subject": "Biology", "Grade": "D" }
         },
         {
@@ -425,8 +425,8 @@ const students = [
         "last_name": "Darrigoe",
         "gender": "Male",
         "ranking": 0,
-        "grade_level": "Senior",
-        "first_subject": { "Subject": "History", "Grade": "A" },
+        "grade_level": "Sophomore",
+        "first_subject": { "Subject": "Trigonometry", "Grade": "A" },
         "second_subject": { "Subject": "Art", "Grade": "F" }
         },
         {
@@ -447,7 +447,7 @@ const students = [
         "ranking": 0,
         "grade_level": "Sophomore",
         "first_subject": { "Subject": "History", "Grade": "B" },
-        "second_subject": { "Subject": "Physics", "Grade": "D" }
+        "second_subject": { "Subject": "Sociology", "Grade": "D" }
         },
         {
         "id": 46,
@@ -457,7 +457,7 @@ const students = [
         "ranking": 0,
         "grade_level": "Junior",
         "first_subject": { "Subject": "History", "Grade": "A" },
-        "second_subject": { "Subject": "Physics", "Grade": "F" }
+        "second_subject": { "Subject": "Writing", "Grade": "F" }
         },
         {
         "id": 47,
@@ -485,9 +485,9 @@ const students = [
         "last_name": "Wilkes",
         "gender": "Bigender",
         "ranking": 0,
-        "grade_level": "Freshmen",
+        "grade_level": "Freshman",
         "first_subject": { "Subject": "History", "Grade": "A" },
-        "second_subject": { "Subject": "Physics", "Grade": "D" }
+        "second_subject": { "Subject": "Algebra", "Grade": "D" }
         },
         {
         "id": 50,
@@ -507,7 +507,7 @@ const students = [
         "ranking": 0,
         "grade_level": "Junior",
         "first_subject": { "Subject": "History", "Grade": "A" },
-        "second_subject": { "Subject": "Physics", "Grade": "F" }
+        "second_subject": { "Subject": "Sociology", "Grade": "F" }
         },
         {
         "id": 52,
@@ -535,9 +535,9 @@ const students = [
         "last_name": "Alejandro",
         "gender": "Female",
         "ranking": 0,
-        "grade_level": "Senior",
+        "grade_level": "Sophomore",
         "first_subject": { "Subject": "Algebra", "Grade": "A" },
-        "second_subject": { "Subject": "Physics", "Grade": "B" }
+        "second_subject": { "Subject": "PE", "Grade": "B" }
         },
         {
         "id": 55,
@@ -547,7 +547,7 @@ const students = [
         "ranking": 0,
         "grade_level": "Senior",
         "first_subject": { "Subject": "Algebra", "Grade": "A" },
-        "second_subject": { "Subject": "Physics", "Grade": "F" }
+        "second_subject": { "Subject": "Art", "Grade": "F" }
         },
         {
         "id": 56,
@@ -565,7 +565,7 @@ const students = [
         "last_name": "Rosekilly",
         "gender": "Male",
         "ranking": 0,
-        "grade_level": "Freshmen",
+        "grade_level": "Freshman",
         "first_subject": { "Subject": "History", "Grade": "F" },
         "second_subject": { "Subject": "Biology", "Grade": "F" }
         },
@@ -605,8 +605,8 @@ const students = [
         "last_name": "Wasteney",
         "gender": "Polygender",
         "ranking": 0,
-        "grade_level": "Freshmen",
-        "first_subject": { "Subject": "History", "Grade": "A" },
+        "grade_level": "Freshman",
+        "first_subject": { "Subject": "Trigonometry", "Grade": "A" },
         "second_subject": { "Subject": "Physics", "Grade": "D" }
         },
         {
@@ -615,7 +615,7 @@ const students = [
         "last_name": "Bettridge",
         "gender": "Male",
         "ranking": 0,
-        "grade_level": "Freshmen",
+        "grade_level": "Freshman",
         "first_subject": { "Subject": "Algebra", "Grade": "A" },
         "second_subject": { "Subject": "Art", "Grade": "A" }
         },
@@ -625,7 +625,7 @@ const students = [
         "last_name": "Gawkroge",
         "gender": "Female",
         "ranking": 0,
-        "grade_level": "Freshmen",
+        "grade_level": "Freshman",
         "first_subject": { "Subject": "Trigonometry", "Grade": "A" },
         "second_subject": { "Subject": "Art", "Grade": "F" }
         },
@@ -635,7 +635,7 @@ const students = [
         "last_name": "Adamovicz",
         "gender": "Female",
         "ranking": 0,
-        "grade_level": "Senior",
+        "grade_level": "Freshman",
         "first_subject": { "Subject": "History", "Grade": "B" },
         "second_subject": { "Subject": "Physics", "Grade": "F" }
         },
@@ -645,7 +645,7 @@ const students = [
         "last_name": "Cayley",
         "gender": "Female",
         "ranking": 0,
-        "grade_level": "Senior",
+        "grade_level": "Sophomore",
         "first_subject": { "Subject": "History", "Grade": "A" },
         "second_subject": { "Subject": "Biology", "Grade": "D" }
         },
@@ -667,7 +667,7 @@ const students = [
         "ranking": 0,
         "grade_level": "Junior",
         "first_subject": { "Subject": "Public Speaking", "Grade": "A" },
-        "second_subject": { "Subject": "Physics", "Grade": "B" }
+        "second_subject": { "Subject": "History", "Grade": "B" }
         },
         {
         "id": 68,
@@ -695,9 +695,9 @@ const students = [
         "last_name": "Reef",
         "gender": "Female",
         "ranking": 0,
-        "grade_level": "Senior",
+        "grade_level": "Freshman",
         "first_subject": { "Subject": "Trigonometry", "Grade": "A" },
-        "second_subject": { "Subject": "Physics", "Grade": "F" }
+        "second_subject": { "Subject": "PE", "Grade": "F" }
         },
         {
         "id": 71,
@@ -715,7 +715,7 @@ const students = [
         "last_name": "Edgworth",
         "gender": "Male",
         "ranking": 0,
-        "grade_level": "Junior",
+        "grade_level": "Sophomore",
         "first_subject": { "Subject": "History", "Grade": "B" },
         "second_subject": { "Subject": "Physics", "Grade": "D" }
         },
@@ -727,7 +727,7 @@ const students = [
         "ranking": 0,
         "grade_level": "Senior",
         "first_subject": { "Subject": "Algebra", "Grade": "A" },
-        "second_subject": { "Subject": "Physics", "Grade": "F" }
+        "second_subject": { "Subject": "PE", "Grade": "F" }
         },
         {
         "id": 74,
@@ -745,7 +745,7 @@ const students = [
         "last_name": "Ewestace",
         "gender": "Female",
         "ranking": 0,
-        "grade_level": "Senior",
+        "grade_level": "Freshman",
         "first_subject": { "Subject": "Algebra", "Grade": "A" },
         "second_subject": { "Subject": "Physics", "Grade": "F" }
         },
@@ -767,7 +767,7 @@ const students = [
         "ranking": 0,
         "grade_level": "Senior",
         "first_subject": { "Subject": "History", "Grade": "A" },
-        "second_subject": { "Subject": "Physics", "Grade": "D" }
+        "second_subject": { "Subject": "Public Speaking", "Grade": "D" }
         },
         {
         "id": 78,
@@ -777,7 +777,7 @@ const students = [
         "ranking": 0,
         "grade_level": "Junior",
         "first_subject": { "Subject": "History", "Grade": "B" },
-        "second_subject": { "Subject": "Physics", "Grade": "F" }
+        "second_subject": { "Subject": "Sociology", "Grade": "F" }
         },
         {
         "id": 79,
@@ -795,7 +795,7 @@ const students = [
         "last_name": "Labet",
         "gender": "Male",
         "ranking": 0,
-        "grade_level": "Senior",
+        "grade_level": "Freshman",
         "first_subject": { "Subject": "History", "Grade": "A" },
         "second_subject": { "Subject": "Biology", "Grade": "F" }
         },
@@ -805,7 +805,7 @@ const students = [
         "last_name": "Taw",
         "gender": "Female",
         "ranking": 0,
-        "grade_level": "Junior",
+        "grade_level": "Freshman",
         "first_subject": { "Subject": "History", "Grade": "A" },
         "second_subject": { "Subject": "Physics", "Grade": "F" }
         },
@@ -825,7 +825,7 @@ const students = [
         "last_name": "De Malchar",
         "gender": "Female",
         "ranking": 0,
-        "grade_level": "Freshmen",
+        "grade_level": "Freshman",
         "first_subject": { "Subject": "History", "Grade": "A" },
         "second_subject": { "Subject": "Physics", "Grade": "F" }
         },
@@ -835,7 +835,7 @@ const students = [
         "last_name": "Meriot",
         "gender": "Genderqueer",
         "ranking": 0,
-        "grade_level": "Freshmen",
+        "grade_level": "Freshman",
         "first_subject": { "Subject": "English", "Grade": "A" },
         "second_subject": { "Subject": "Writing", "Grade": "D" }
         },
@@ -845,9 +845,9 @@ const students = [
         "last_name": "Dobbings",
         "gender": "Female",
         "ranking": 0,
-        "grade_level": "Freshmen",
+        "grade_level": "Freshman",
         "first_subject": { "Subject": "History", "Grade": "B" },
-        "second_subject": { "Subject": "Physics", "Grade": "C" }
+        "second_subject": { "Subject": "Art", "Grade": "C" }
         },
         {
         "id": 86,
@@ -857,7 +857,7 @@ const students = [
         "ranking": 0,
         "grade_level": "Sophomore",
         "first_subject": { "Subject": "History", "Grade": "A" },
-        "second_subject": { "Subject": "Physics", "Grade": "C" }
+        "second_subject": { "Subject": "Sociology", "Grade": "C" }
         },
         {
         "id": 87,
@@ -865,7 +865,7 @@ const students = [
         "last_name": "Monte",
         "gender": "Male",
         "ranking": 0,
-        "grade_level": "Freshmen",
+        "grade_level": "Freshman",
         "first_subject": { "Subject": "History", "Grade": "B" },
         "second_subject": { "Subject": "Biology", "Grade": "F" }
         },
@@ -885,7 +885,7 @@ const students = [
         "last_name": "Goodwyn",
         "gender": "Female",
         "ranking": 0,
-        "grade_level": "Freshmen",
+        "grade_level": "Freshman",
         "first_subject": { "Subject": "Algebra", "Grade": "A" },
         "second_subject": { "Subject": "Physics", "Grade": "C" }
         },
@@ -895,7 +895,7 @@ const students = [
         "last_name": "Liddard",
         "gender": "Female",
         "ranking": 0,
-        "grade_level": "Freshmen",
+        "grade_level": "Freshman",
         "first_subject": { "Subject": "History", "Grade": "A" },
         "second_subject": { "Subject": "Art", "Grade": "F" }
         },
@@ -905,8 +905,8 @@ const students = [
         "last_name": "Torrisi",
         "gender": "Male",
         "ranking": 0,
-        "grade_level": "Senior",
-        "first_subject": { "Subject": "Algebra", "Grade": "A" },
+        "grade_level": "Sophomore",
+        "first_subject": { "Subject": "Biology", "Grade": "A" },
         "second_subject": { "Subject": "Physics", "Grade": "F" }
         },
         {
@@ -915,9 +915,9 @@ const students = [
         "last_name": "McCuffie",
         "gender": "Male",
         "ranking": 0,
-        "grade_level": "Freshmen",
+        "grade_level": "Freshman",
         "first_subject": { "Subject": "Algebra", "Grade": "A" },
-        "second_subject": { "Subject": "Physics", "Grade": "D" }
+        "second_subject": { "Subject": "Calculus", "Grade": "D" }
         },
         {
         "id": 93,
@@ -937,7 +937,7 @@ const students = [
         "ranking": 0,
         "grade_level": "Senior",
         "first_subject": { "Subject": "History", "Grade": "A" },
-        "second_subject": { "Subject": "Physics", "Grade": "A" }
+        "second_subject": { "Subject": "Algebra", "Grade": "A" }
         },
         {
         "id": 95,
@@ -947,7 +947,7 @@ const students = [
         "ranking": 0,
         "grade_level": "Junior",
         "first_subject": { "Subject": "Public Speaking", "Grade": "A" },
-        "second_subject": { "Subject": "Physics", "Grade": "D" }
+        "second_subject": { "Subject": "Psychology", "Grade": "D" }
         },
         {
         "id": 96,
@@ -975,9 +975,9 @@ const students = [
         "last_name": "Argente",
         "gender": "Female",
         "ranking": 0,
-        "grade_level": "Senior",
+        "grade_level": "Freshman",
         "first_subject": { "Subject": "Algebra", "Grade": "A" },
-        "second_subject": { "Subject": "Physics", "Grade": "D" }
+        "second_subject": { "Subject": "Writing", "Grade": "D" }
         },
         {
         "id": 99,
@@ -985,7 +985,7 @@ const students = [
         "last_name": "Nendick",
         "gender": "Female",
         "ranking": 0,
-        "grade_level": "Freshmen",
+        "grade_level": "Freshman",
         "first_subject": { "Subject": "Algebra", "Grade": "A" },
         "second_subject": { "Subject": "Art", "Grade": "D" }
         },
@@ -996,86 +996,734 @@ const students = [
         "gender": "Male",
         "ranking": 0,
         "grade_level": "Senior",
-        "first_subject": { "Subject": "History", "Grade": "A" },
+        "first_subject": { "Subject": "Art", "Grade": "A" },
         "second_subject": { "Subject": "Writing", "Grade": "F" }
         }
 ]  
 
-// Looping thought to get each key
-const keys = new Set();
-students.forEach(s => {
-    Object.keys(s).forEach(key => keys.add(key));
-})
-console.log(keys);
-
-/****** Use Cases ******/ 
-// Iesha
-/* Use case 1 */
-
-/* Use case 2 */
-
-/* Use case 3 */
-
-
-
-// Rosita - ES6
-/* Use case 1  Map */
-// Roll call attendance 
-// students.map((s) => {
-//     console.log(s.first_name, s.last_name)
-// })
-
-
-// Sort names - parentheses additinoal logic needed
-const sortedStudents = students.map((s) => (
-    s.first_name
-)).sort();
-
-// console.log(sortedStudents);
-
-
-/* Use case 2  Filter */
-const studentWithA = students.filter(student => {
-    return student.first_subject.Grade === 'A' && student.second_subject.Grade === 'A'
-})
-// console.log(studentWithA);
-
-
-const updatedStudents = students.map(student => {
-    let ranking = 0;
-    if(student.first_subject.Grade === 'A' && student.second_subject.Grade === 'A') {
-        ranking = 10;
-    }else if(student.first_subject.Grade === 'A' || student.second_subject.Grade === 'A'){
-        ranking = 5;
+const teachers = [
+    {
+    "first_name": "Taddeusz",
+    "last_name": "Hails",
+    "salary": 74165,
+    "start_year": 2007,
+    "class": "PE"
+    },
+    {
+    "first_name": "Serene",
+    "last_name": "Stairmand",
+    "salary": 23943,
+    "start_year": 2016,
+    "class": "Biology"
+    },
+    {
+    "first_name": "Enrica",
+    "last_name": "Bagnal",
+    "salary": 63960,
+    "start_year": 2011,
+    "class": "History"
+    },
+    {
+    "first_name": "Florence",
+    "last_name": "Stoffler",
+    "salary": 67341,
+    "start_year": 2015,
+    "class": "Public Speaking"
+    },
+    {
+    "first_name": "Jonah",
+    "last_name": "Kimmince",
+    "salary": 96394,
+    "start_year": 2020,
+    "class": "PE"
+    },
+    {
+    "first_name": "Jillene",
+    "last_name": "Wisson",
+    "salary": 36829,
+    "start_year": 2007,
+    "class": "Public Speaking"
+    },
+    {
+    "first_name": "Charissa",
+    "last_name": "Tchir",
+    "salary": 34439,
+    "start_year": 2004,
+    "class": "Art"
+    },
+    {
+    "first_name": "Betti",
+    "last_name": "Mumford",
+    "salary": 99606,
+    "start_year": 2015,
+    "class": "Calculus"
+    },
+    {
+    "first_name": "Hort",
+    "last_name": "Curtin",
+    "salary": 56629,
+    "start_year": 2014,
+    "class": "History"
+    },
+    {
+    "first_name": "Kaitlynn",
+    "last_name": "Domerc",
+    "salary": 76389,
+    "start_year": 2014,
+    "class": "Algebra"
+    },
+    {
+    "first_name": "Rowney",
+    "last_name": "Le Jean",
+    "salary": 24749,
+    "start_year": 2003,
+    "class": "PE"
+    },
+    {
+    "first_name": "Ashly",
+    "last_name": "Arnott",
+    "salary": 14617,
+    "start_year": 2000,
+    "class": "Calculus"
+    },
+    {
+    "first_name": "Shina",
+    "last_name": "Gooder",
+    "salary": 55509,
+    "start_year": 2000,
+    "class": "Algebra"
+    },
+    {
+    "first_name": "Tanney",
+    "last_name": "Clemens",
+    "salary": 33962,
+    "start_year": 2021,
+    "class": "Algebra"
+    },
+    {
+    "first_name": "Laraine",
+    "last_name": "Limon",
+    "salary": 25354,
+    "start_year": 2001,
+    "class": "Psychology"
+    },
+    {
+    "first_name": "Dex",
+    "last_name": "Jerrams",
+    "salary": 107729,
+    "start_year": 2022,
+    "class": "Algebra"
+    },
+    {
+    "first_name": "Leonidas",
+    "last_name": "Dodgshun",
+    "salary": 12448,
+    "start_year": 2020,
+    "class": "Trigonometry"
+    },
+    {
+    "first_name": "Emelen",
+    "last_name": "Witherspoon",
+    "salary": 50546,
+    "start_year": 2005,
+    "class": "History"
+    },
+    {
+    "first_name": "Vivi",
+    "last_name": "de Juares",
+    "salary": 4621,
+    "start_year": 2022,
+    "class": "Sociology"
+    },
+    {
+    "first_name": "Babita",
+    "last_name": "Degoey",
+    "salary": 68555,
+    "start_year": 2011,
+    "class": "Art"
+    },
+    {
+    "first_name": "Moises",
+    "last_name": "Dick",
+    "salary": 77940,
+    "start_year": 2009,
+    "class": "Psychology"
+    },
+    {
+    "first_name": "Berkly",
+    "last_name": "Benthall",
+    "salary": 106994,
+    "start_year": 2004,
+    "class": "Algebra"
+    },
+    {
+    "first_name": "Zaccaria",
+    "last_name": "Tupling",
+    "salary": 55409,
+    "start_year": 2013,
+    "class": "Biology"
+    },
+    {
+    "first_name": "Amandi",
+    "last_name": "Elia",
+    "salary": 7807,
+    "start_year": 2021,
+    "class": "Sociology"
+    },
+    {
+    "first_name": "Micah",
+    "last_name": "Filipovic",
+    "salary": 71027,
+    "start_year": 2021,
+    "class": "Sociology"
+    },
+    {
+    "first_name": "Gearalt",
+    "last_name": "Rosenbusch",
+    "salary": 36083,
+    "start_year": 2023,
+    "class": "Trigonometry"
+    },
+    {
+    "first_name": "Jonathon",
+    "last_name": "Witchard",
+    "salary": 15376,
+    "start_year": 2008,
+    "class": "History"
+    },
+    {
+    "first_name": "Wainwright",
+    "last_name": "Lumb",
+    "salary": 80931,
+    "start_year": 2016,
+    "class": "Algebra"
+    },
+    {
+    "first_name": "Jon",
+    "last_name": "Wagnerin",
+    "salary": 51736,
+    "start_year": 2019,
+    "class": "Trigonometry"
+    },
+    {
+    "first_name": "Roseanna",
+    "last_name": "Brotherton",
+    "salary": 5343,
+    "start_year": 2000,
+    "class": "History"
+    },
+    {
+    "first_name": "Benedetta",
+    "last_name": "Torregiani",
+    "salary": 106707,
+    "start_year": 2005,
+    "class": "Psychology"
+    },
+    {
+    "first_name": "Christen",
+    "last_name": "Ashment",
+    "salary": 7427,
+    "start_year": 2022,
+    "class": "Public Speaking"
+    },
+    {
+    "first_name": "Renell",
+    "last_name": "Mudge",
+    "salary": 29691,
+    "start_year": 2014,
+    "class": "Biology"
+    },
+    {
+    "first_name": "Elmo",
+    "last_name": "Budding",
+    "salary": 9240,
+    "start_year": 2011,
+    "class": "Sociology"
+    },
+    {
+    "first_name": "Correy",
+    "last_name": "Rickersey",
+    "salary": 54912,
+    "start_year": 2004,
+    "class": "Public Speaking"
+    },
+    {
+    "first_name": "Anne-corinne",
+    "last_name": "Diviney",
+    "salary": 54824,
+    "start_year": 2002,
+    "class": "History"
+    },
+    {
+    "first_name": "Mollee",
+    "last_name": "Probet",
+    "salary": 70404,
+    "start_year": 2003,
+    "class": "Calculus"
+    },
+    {
+    "first_name": "Nannette",
+    "last_name": "Ramsdell",
+    "salary": 8722,
+    "start_year": 2015,
+    "class": "Public Speaking"
+    },
+    {
+    "first_name": "Alex",
+    "last_name": "Corbally",
+    "salary": 84678,
+    "start_year": 2022,
+    "class": "Public Speaking"
+    },
+    {
+    "first_name": "Torrey",
+    "last_name": "Mattiato",
+    "salary": 35322,
+    "start_year": 2003,
+    "class": "History"
+    },
+    {
+    "first_name": "Salvador",
+    "last_name": "Ege",
+    "salary": 104189,
+    "start_year": 2001,
+    "class": "Algebra"
+    },
+    {
+    "first_name": "Zeke",
+    "last_name": "Cootes",
+    "salary": 101979,
+    "start_year": 2019,
+    "class": "Art"
+    },
+    {
+    "first_name": "Brew",
+    "last_name": "Hansel",
+    "salary": 65043,
+    "start_year": 2022,
+    "class": "Physics"
+    },
+    {
+    "first_name": "Ethelind",
+    "last_name": "Dreinan",
+    "salary": 86997,
+    "start_year": 2006,
+    "class": "Public Speaking"
+    },
+    {
+    "first_name": "Elwira",
+    "last_name": "Melonby",
+    "salary": 95122,
+    "start_year": 2007,
+    "class": "Psychology"
+    },
+    {
+    "first_name": "Karrah",
+    "last_name": "Lindeman",
+    "salary": 5646,
+    "start_year": 2006,
+    "class": "Calculus"
+    },
+    {
+    "first_name": "Ramona",
+    "last_name": "Smaile",
+    "salary": 8804,
+    "start_year": 2023,
+    "class": "Public Speaking"
+    },
+    {
+    "first_name": "Arne",
+    "last_name": "Macveigh",
+    "salary": 24038,
+    "start_year": 2022,
+    "class": "Biology"
+    },
+    {
+    "first_name": "Dusty",
+    "last_name": "Vardie",
+    "salary": 108368,
+    "start_year": 2022,
+    "class": "Art"
+    },
+    {
+    "first_name": "Duffy",
+    "last_name": "Wickson",
+    "salary": 81665,
+    "start_year": 2001,
+    "class": "Algebra"
+    },
+    {
+    "first_name": "Sonnie",
+    "last_name": "Yakushkin",
+    "salary": 80428,
+    "start_year": 2023,
+    "class": "Sociology"
+    },
+    {
+    "first_name": "Ced",
+    "last_name": "Burde",
+    "salary": 21775,
+    "start_year": 2010,
+    "class": "Writing"
+    },
+    {
+    "first_name": "Miof mela",
+    "last_name": "Schall",
+    "salary": 83713,
+    "start_year": 2002,
+    "class": "Writing"
+    },
+    {
+    "first_name": "Eal",
+    "last_name": "Scaife",
+    "salary": 47389,
+    "start_year": 2022,
+    "class": "Calculus"
+    },
+    {
+    "first_name": "Sile",
+    "last_name": "Arnout",
+    "salary": 45394,
+    "start_year": 2017,
+    "class": "Public Speaking"
+    },
+    {
+    "first_name": "Adria",
+    "last_name": "But",
+    "salary": 35460,
+    "start_year": 2004,
+    "class": "Trigonometry"
+    },
+    {
+    "first_name": "Shirline",
+    "last_name": "O'Connolly",
+    "salary": 28109,
+    "start_year": 2005,
+    "class": "Sociology"
+    },
+    {
+    "first_name": "Mathilda",
+    "last_name": "Christensen",
+    "salary": 74593,
+    "start_year": 2016,
+    "class": "Trigonometry"
+    },
+    {
+    "first_name": "Lexi",
+    "last_name": "Pawley",
+    "salary": 39457,
+    "start_year": 2023,
+    "class": "Trigonometry"
+    },
+    {
+    "first_name": "Elmira",
+    "last_name": "De Witt",
+    "salary": 55319,
+    "start_year": 2014,
+    "class": "Public Speaking"
+    },
+    {
+    "first_name": "Robyn",
+    "last_name": "Phinnessy",
+    "salary": 15863,
+    "start_year": 2018,
+    "class": "Algebra"
+    },
+    {
+    "first_name": "Jermaine",
+    "last_name": "Botwright",
+    "salary": 95717,
+    "start_year": 2022,
+    "class": "Biology"
+    },
+    {
+    "first_name": "Fleming",
+    "last_name": "Sugden",
+    "salary": 11287,
+    "start_year": 2001,
+    "class": "History"
+    },
+    {
+    "first_name": "Way",
+    "last_name": "Hoodless",
+    "salary": 103765,
+    "start_year": 2019,
+    "class": "Trigonometry"
+    },
+    {
+    "first_name": "Worthy",
+    "last_name": "Vicary",
+    "salary": 51356,
+    "start_year": 2016,
+    "class": "Algebra"
+    },
+    {
+    "first_name": "Ring",
+    "last_name": "Sidney",
+    "salary": 28136,
+    "start_year": 2013,
+    "class": "Calculus"
+    },
+    {
+    "first_name": "Hillie",
+    "last_name": "Ranscombe",
+    "salary": 57345,
+    "start_year": 2010,
+    "class": "Sociology"
+    },
+    {
+    "first_name": "Laina",
+    "last_name": "Shellsheere",
+    "salary": 66818,
+    "start_year": 2021,
+    "class": "Biology"
+    },
+    {
+    "first_name": "Deni",
+    "last_name": "Blucher",
+    "salary": 104219,
+    "start_year": 2022,
+    "class": "Public Speaking"
+    },
+    {
+    "first_name": "Gwenni",
+    "last_name": "Sarfas",
+    "salary": 21916,
+    "start_year": 2004,
+    "class": "Art"
+    },
+    {
+    "first_name": "Leeanne",
+    "last_name": "Hupe",
+    "salary": 71824,
+    "start_year": 2017,
+    "class": "Psychology"
+    },
+    {
+    "first_name": "Currey",
+    "last_name": "Seaborne",
+    "salary": 95909,
+    "start_year": 2019,
+    "class": "Sociology"
+    },
+    {
+    "first_name": "Virgie",
+    "last_name": "Le Estut",
+    "salary": 51001,
+    "start_year": 2009,
+    "class": "Algebra"
+    },
+    {
+    "first_name": "Torr",
+    "last_name": "Tarquinio",
+    "salary": 88357,
+    "start_year": 2009,
+    "class": "Trigonometry"
+    },
+    {
+    "first_name": "Allina",
+    "last_name": "Mitcheson",
+    "salary": 45421,
+    "start_year": 2006,
+    "class": "Algebra"
+    },
+    {
+    "first_name": "Lothaire",
+    "last_name": "Raise",
+    "salary": 15087,
+    "start_year": 2007,
+    "class": "Writing"
+    },
+    {
+    "first_name": "Martita",
+    "last_name": "Jewkes",
+    "salary": 15556,
+    "start_year": 2008,
+    "class": "Algebra"
+    },
+    {
+    "first_name": "Reyna",
+    "last_name": "Witty",
+    "salary": 81104,
+    "start_year": 2016,
+    "class": "PE"
+    },
+    {
+    "first_name": "Ty",
+    "last_name": "Woolen",
+    "salary": 99185,
+    "start_year": 2009,
+    "class": "Public Speaking"
+    },
+    {
+    "first_name": "Rock",
+    "last_name": "Rollitt",
+    "salary": 56902,
+    "start_year": 2008,
+    "class": "Public Speaking"
+    },
+    {
+    "first_name": "Perren",
+    "last_name": "Valentine",
+    "salary": 35010,
+    "start_year": 2023,
+    "class": "Algebra"
+    },
+    {
+    "first_name": "Stuart",
+    "last_name": "Badsey",
+    "salary": 36150,
+    "start_year": 2001,
+    "class": "Sociology"
+    },
+    {
+    "first_name": "Morlee",
+    "last_name": "Speedin",
+    "salary": 25062,
+    "start_year": 2006,
+    "class": "Algebra"
+    },
+    {
+    "first_name": "Caye",
+    "last_name": "Wibrew",
+    "salary": 90568,
+    "start_year": 2007,
+    "class": "Biology"
+    },
+    {
+    "first_name": "Del",
+    "last_name": "Jozwicki",
+    "salary": 23783,
+    "start_year": 2009,
+    "class": "Psychology"
+    },
+    {
+    "first_name": "Clareta",
+    "last_name": "Bowerman",
+    "salary": 38551,
+    "start_year": 2013,
+    "class": "Public Speaking"
+    },
+    {
+    "first_name": "Adrea",
+    "last_name": "Wolford",
+    "salary": 31895,
+    "start_year": 2019,
+    "class": "History"
+    },
+    {
+    "first_name": "Emilia",
+    "last_name": "Burrows",
+    "salary": 32058,
+    "start_year": 2006,
+    "class": "Trigonometry"
+    },
+    {
+    "first_name": "Baxie",
+    "last_name": "Cockle",
+    "salary": 24053,
+    "start_year": 2009,
+    "class": "PE"
+    },
+    {
+    "first_name": "Waldemar",
+    "last_name": "Rajchert",
+    "salary": 70455,
+    "start_year": 2004,
+    "class": "Biology"
+    },
+    {
+    "first_name": "Jeffy",
+    "last_name": "Cranage",
+    "salary": 29755,
+    "start_year": 2018,
+    "class": "Art"
+    },
+    {
+    "first_name": "Nari",
+    "last_name": "Newlands",
+    "salary": 84318,
+    "start_year": 2002,
+    "class": "Psychology"
+    },
+    {
+    "first_name": "Sharai",
+    "last_name": "Jzhakov",
+    "salary": 106132,
+    "start_year": 2019,
+    "class": "Calculus"
+    },
+    {
+    "first_name": "Cort",
+    "last_name": "Gladtbach",
+    "salary": 101853,
+    "start_year": 2007,
+    "class": "Public Speaking"
+    },
+    {
+    "first_name": "Mort",
+    "last_name": "Hidderley",
+    "salary": 57760,
+    "start_year": 2004,
+    "class": "Biology"
+    },
+    {
+    "first_name": "Emelia",
+    "last_name": "Mowles",
+    "salary": 67077,
+    "start_year": 2018,
+    "class": "Writing"
+    },
+    {
+    "first_name": "Thaxter",
+    "last_name": "Syder",
+    "salary": 70992,
+    "start_year": 2009,
+    "class": "Sociology"
+    },
+    {
+    "first_name": "Lindy",
+    "last_name": "Crips",
+    "salary": 6743,
+    "start_year": 2016,
+    "class": "Public Speaking"
+    },
+    {
+    "first_name": "Barclay",
+    "last_name": "Schiefersten",
+    "salary": 19705,
+    "start_year": 2011,
+    "class": "Trigonometry"
+    },
+    {
+    "first_name": "Bowie",
+    "last_name": "Goodier",
+    "salary": 63261,
+    "start_year": 2023,
+    "class": "Writing"
     }
-    return{...student, ranking};
-})
-// console.log(updatedStudents);
+]
+    
+
+// Iesha  - Map, Filter, Reduce 
+/* Use Case 1  -  map */ 
+// Possible Use Case - Group Students together based on Letter grade
+// Possible Use Case - Group Teachers tofether by certain salary ranges
+
+/* Use Case 2 - filter */
+
+/* USe Cse 3  - reduce */
 
 
-/* Use case 3 Reduce */
-// Total number of students in each grade level
-// junior, freshmen sophomore,senior
-const countGradeLevel = students.reduce((acc, student) => {
-    if(student.grade_level === 'Freshmen') acc.freshmen++;
-    if(student.grade_level === 'Sophomore') acc.sophomore++;
-    if(student.grade_level === 'Junior') acc.junior++;
-    if(student.grade_level === 'Senior') acc.senior++;
-    return acc    
-}, {freshmen:0, sophomore:0, junior:0, senior:0})
 
-// console.log(countGradeLevel);
+// Rosita  
+/* Use Case 1 */
+// Possible Use Case - Give a student a ranking based on their letter grade. 
+// Possible Use Case - Give a teacher a raise based on certain salary ranges 
+
+/* Use Case 2 */
+
+/* USe Cse 3 */
 
 
-const studentsByGradeLevel = students.reduce((acc, student) => {
-    acc[student.grade_level] = (acc[student.grade_level] || 0) + 1;
-    return acc;
-}, {});
-// console.log(studentsByGradeLevel);
 
-
-// Number of students that have an A
-const seniorCount = students.reduce((count, student) => 
-  student.grade_level === 'Senior' && (student.first_subject.Grade === 'A' || student.second_subject.Grade === 'A') ?  count + 1 : count, 0);
-  
-console.log("Number of seniors that have an A:", seniorCount);
